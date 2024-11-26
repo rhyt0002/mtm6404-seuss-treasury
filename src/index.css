@@ -68,3 +68,84 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* Reset some default styles */
+body, html, ul, li, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9; /* Light background for contrast */
+  color: #333; /* Default text color */
+}
+
+/* Navigation bar */
+nav {
+  background-color: gold; /* Gold background */
+  padding: 15px;
+  text-align: center; /* Center-aligns the navigation */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  display: inline-flex; /* Align items horizontally */
+  gap: 20px; /* Space between navigation items */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline; /* Ensure items are inline */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: brown; /* Brown text */
+  font-weight: bold; /* Bold text */
+  font-size: 1.2em; /* Slightly larger font */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+nav ul li a:hover {
+  color: #8b4513; /* Darker shade of brown on hover */
+}
+
+/* Main content area */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+div {
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px; /* Slightly rounded corners */
+}
+
+/* Quotes page styling */
+ul {
+  list-style: none; /* Remove bullets */
+  padding: 0;
+}
+
+ul li {
+  background-color: #fff; /* White background for quotes */
+  margin: 10px auto;
+  padding: 15px;
+  border: 1px solid #ddd; /* Light border for each item */
+  border-radius: 5px; /* Rounded corners */
+  max-width: 800px;
+  text-align: left; /* Align text to the left */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for better appearance */
+}
